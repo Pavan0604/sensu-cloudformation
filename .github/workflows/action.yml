@@ -24,7 +24,7 @@ jobs:
       - name: Build Templates
         run: go run main.go
       - name: install dependencies
-        run: pip3 install cfstack tabulate
+        run: pip3 install cfstack==1.1.7 tabulate
       - name: Deploy Stacks
         run: python3 execute.py
   
