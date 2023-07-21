@@ -31,12 +31,6 @@
                     },
                     "SkipUpdate": false,
                     "TemplatePath": "./templates/mumbai/ds/mumbai-ds-service.json"
-                },
-                "Sensu-Stack":{
-                    "Parameters": {
-                    },
-                    "SkipUpdate": false,
-                    "TemplatePath": "./stacks/sensu/sensu.json"
                 }
         }
     }
