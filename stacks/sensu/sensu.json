@@ -1,4 +1,6 @@
 {
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "Core Network Stack",
     "Resources": {
         "EcsCluster": {
             "Type": "AWS::ECS::Cluster",
