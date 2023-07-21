@@ -1,0 +1,8 @@
+{
+    "Resources": {
+        "EcsCluster": {
+            "Type": "AWS::ECS::Cluster",
+            "Properties": {}
+        }
+    }
+}
